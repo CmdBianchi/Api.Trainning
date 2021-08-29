@@ -1,7 +1,7 @@
 ﻿using System;
 namespace X.Game.Domain.Entities
 {
-    class MeuJogo
+    public class MeuJogo
     {
         public Guid Id { get; set; }
         public JogoPlataforma JogoPlataforma { get; set; }

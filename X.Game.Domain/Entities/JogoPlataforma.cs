@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace X.Game.Domain.Entities
 {
-    class JogoPlataforma
+    public class JogoPlataforma
     {
         public Guid Id { get; set; }
         public Jogo Jogo { get; set; }
